@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "Iveskite spalva"
+read spalva
+for i in raudona balta melyna
+do
+if [ "$spalva" == "$i" ]
+then 
+echo "$i yra teisinga spalva"
+else
+echo "$i yra neteisinga spalva"
+fi
+done
+
